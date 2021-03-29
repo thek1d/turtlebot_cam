@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/thek1d/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/thek1d/catkin_ws/src/package_turtlebot_cam_ogu/include/**",
+        "/home/thek1d/catkin_ws/src/package_turtlebot_ogu/include/**",
+        "/home/thek1d/catkin_ws/src/package_turtlesim_ogu/include/**",
+        "/home/thek1d/catkin_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+        "/home/thek1d/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/home/thek1d/catkin_ws/src/turtlebot3/turtlebot3_slam/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}
