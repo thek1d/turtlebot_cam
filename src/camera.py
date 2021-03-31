@@ -6,7 +6,6 @@ import cv2
 def image_cb(ros_img, brigde):
     try:
         cv_image = brigde.imgmsg_to_cv2(ros_img, desired_encoding='bgr8')
-        
     except CvBridgeError as e:
         print(e)
     show_img(cv_image)

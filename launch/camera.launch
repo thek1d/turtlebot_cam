@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="package_turtlebot_cam_ogu" type="camera.py" name="camera_node"/>
+    <node pkg="turtlebot3_teleop" type="turtlebot3_teleop_key" name="teleop_node" output="screen"/>
+</launch>
