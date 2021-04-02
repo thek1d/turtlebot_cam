@@ -162,8 +162,8 @@ include_directories(
  catkin_install_python(PROGRAMS
 #   scripts/my_python_script
     src/camera.py
-    src/collaborate.py
-    src/comm.py
+    src/tcp_client.py
+    src/tcp_server.py
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
  )
 
