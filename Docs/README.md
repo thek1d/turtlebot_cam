@@ -2,7 +2,7 @@
 - open 2 terminals
 - specifiy robot model, "export TURTLEBOT3_MODEL=waffle"
 - starting world with bot execute "roslaunch package_turtlebot_cam_ogu camera_world.launch"
-- starting camera and <b>teleop node</b> execute "roslaunch package_turtlebot_cam_ogu collaborate_comm.launch"
+- starting camera and <b>teleop node</b> execute "roslaunch package_turtlebot_cam_ogu collaborate_comm.launch" in other terminal(for stopping this launch file please use CTRL+C twice)
 
 ## Lauching Communication Module
 - open 2 terminals
